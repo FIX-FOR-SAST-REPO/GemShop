@@ -21,7 +21,6 @@ class ApplicationController < ActionController::Base
       ['Wisconsin', 'WI'], ['Wyoming', 'WY']
     ]
   end
-
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   protected
